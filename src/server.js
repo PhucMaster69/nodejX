@@ -25,7 +25,7 @@ connectDB();
 
 //input code here
 
-//read event log
+// read event log
 // const { exec } = require('child_process');
 // exec('PowerShell.exe Get-EventLog -Newest 50 -LogName "Application"', (error, stdout, stderr) => {
 //   if (error) {
@@ -35,7 +35,7 @@ connectDB();
 //   console.log(`stdout: ${stdout}`);
 //   console.log(`stderr: ${stderr}`);
 // });
-//end
+// end
 let port = process.env.PORT || 6969;
 //port === undifined => port =6969
 
