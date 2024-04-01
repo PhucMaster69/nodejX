@@ -1,6 +1,6 @@
 import VTService from '../services/VTService';
 import moment from 'moment/moment';
-import server from '../server';
+//import server from '../server2';
 const ExcelJS = require('exceljs')
 const fs = require('fs')
 function getRandomColor() {

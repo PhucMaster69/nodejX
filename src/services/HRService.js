@@ -3,7 +3,7 @@ import db from '../models/index';
 let createNewLog = (data) => {
     return new Promise(async (resolve, reject) => {
         try {
-            await db.Site1d.create({
+            await db.Site1ds.create({
                 TAG_ID: data.id,
                 TAG_NAME: data.name,
                 VALUE: data.value,

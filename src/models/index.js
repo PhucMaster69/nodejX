@@ -14,7 +14,11 @@ if (config.use_env_variable) {
 } else {
   sequelize = new Sequelize(config.database, config.username, config.password, config);
 }
-
+import {  DATE } from 'sequelize';  
+DATE.prototype._stringify = function _stringify(date, options) {       
+  date = this._applyTimezone(date, options);       
+  return date.format('YYYY-MM-DD HH:mm:ss.SSS'); 
+} 
 fs
   .readdirSync(__dirname)
   .filter(file => {

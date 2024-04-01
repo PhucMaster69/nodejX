@@ -1,9 +1,10 @@
 {
   "development": {
     "username": "sa",
-    "password": "123456",
-    "database": "VTOne",
-    "host": "127.0.0.1",
+    "password": "no123",
+    "database": "phucDatabase",
+    "host": "115.75.223.40",
+    "port":"6868",
     "dialect": "mssql",
     "logging": false,
     "query":{"raw":true},
@@ -15,6 +16,8 @@
     "password": null,
     "database": "database_test",
     "host": "127.0.0.1",
+    "timezone": "+07:00",
+    "logging": false,
     "dialect": "mysql"
   },
   "production": {
