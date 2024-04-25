@@ -1,10 +1,10 @@
 {
   "development": {
     "username": "sa",
-    "password": "no123",
-    "database": "phucDatabase",
+    "password": "NO123!@#",
+    "database": "TigerVN",
     "host": "115.75.223.40",
-    "port":"6868",
+    "port":"1433",
     "dialect": "mssql",
     "logging": false,
     "query":{"raw":true},

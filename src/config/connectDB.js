@@ -3,10 +3,10 @@ const { Sequelize } = require('sequelize');
 
 
 // Option 3: Passing parameters separately (other dialects)
-const sequelize = new Sequelize('phucDatabase', 'sa', 'no123', {
+const sequelize = new Sequelize('TigerVN', 'sa', 'NO123!@#', {
   host: '115.75.223.40',
   dialect:'mssql',
-  port:'6868',
+  port:'1433',
   logging: false
 });
 

@@ -38,7 +38,10 @@ connectDB();
 // end
 let port = process.env.PORT || 6969;
 //port === undifined => port =6969
-
+app.get('/Hello', (req, res) => {
+    // Redirect to another URL (example.com)
+    res.redirect('https://www.google.com');
+  });
 app.listen(port, () =>{
     //callback
     console.log("Backend is running on port: "+port)
