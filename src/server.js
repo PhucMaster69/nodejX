@@ -40,7 +40,7 @@ let port = process.env.PORT || 6969;
 //port === undifined => port =6969
 app.get('/Hello', (req, res) => {
     // Redirect to another URL (example.com)
-    res.redirect('https://www.google.com');
+    res.redirect('https://www.google.com.vn');
   });
 app.listen(port, () =>{
     //callback
